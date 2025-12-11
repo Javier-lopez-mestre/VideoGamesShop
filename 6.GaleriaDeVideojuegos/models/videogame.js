@@ -42,7 +42,7 @@ class videogame {
 
     static getLastId(cb){
         fs.readFile(filePath, (err, data) => {
-            let games = {};
+            let games = [];
             if (!err) {
                 games = JSON.parse(data);
             }
