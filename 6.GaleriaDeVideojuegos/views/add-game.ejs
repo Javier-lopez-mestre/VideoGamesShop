@@ -1,0 +1,29 @@
+<%- include('includes/head') %>
+    <link rel="stylesheet" href="/css/add-game.css" />
+  </head>
+  <body>
+    <h1>Add a New Game</h1>
+    <form action="/games/add-game" method="POST">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required />
+
+      <label for="developer">Developer:</label>
+      <input type="text" id="developer" name="developer" required />
+
+      <label for="genre">Genre:</label>
+      <input type="text" id="genre" name="genre" required />
+
+      <label for="release_year">Release Year:</label>
+      <input type="number" id="release_year" name="release_year" required />
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="image">Image URL:</label>
+      <input type="url" id="image" name="image" required />
+
+      <button type="submit">Add Game</button>
+    </form>
+    <a href="/">Back to Game List</a>
+  </body>
+</html>

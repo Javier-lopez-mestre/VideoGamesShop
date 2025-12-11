@@ -1,0 +1,21 @@
+{
+  "name": "6.galeriadevideojuegos",
+  "version": "1.0.0",
+  "description": "Galeria de videojuegos de Javier",
+  "license": "ISC",
+  "author": "Javier López",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

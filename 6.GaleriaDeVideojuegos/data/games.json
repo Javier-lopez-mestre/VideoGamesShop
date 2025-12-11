@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "developer": "Nintendo",
+    "genre": "Aventura / Mundo abierto",
+    "release_year": 2023,
+    "description": "Secuela directa de Breath of the Wild. Explora Hyrule desde el cielo y bajo tierra, combinando libertad total y nuevas mecánicas de construcción.",
+    "image": "/img/zelda_totk.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Hollow Knight",
+    "developer": "Team Cherry",
+    "genre": "Metroidvania / Acción",
+    "release_year": 2017,
+    "description": "Viaja por un mundo subterráneo lleno de insectos y misterios. Combina exploración precisa con combates exigentes y una ambientación única.",
+    "image": "/img/hollow_knight.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Celeste",
+    "developer": "Maddy Makes Games",
+    "genre": "Plataformas",
+    "release_year": 2018,
+    "description": "Acompaña a Madeline en su ascenso a la montaña Celeste. Un desafío de precisión y superación personal con un mensaje emocional.",
+    "image": "/img/celeste.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hades",
+    "developer": "Supergiant Games",
+    "genre": "Roguelike / Acción",
+    "release_year": 2020,
+    "description": "Enfréntate al inframundo como Zagreus, hijo de Hades. Cada intento te acerca más a la libertad y a descubrir la historia de tu familia divina.",
+    "image": "/img/hades.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Witcher 3: Wild Hunt",
+    "developer": "CD Projekt Red",
+    "genre": "RPG / Mundo abierto",
+    "release_year": 2015,
+    "description": "Encarnas a Geralt de Rivia en una historia épica de monstruos, guerras y decisiones morales. Uno de los RPG más premiados de todos los tiempos.",
+    "image": "/img/witcher3.jpg"
+  }
+]

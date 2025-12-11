@@ -1,0 +1,14 @@
+<%- include('includes/head') %>
+    <link rel="stylesheet" href="/css/game-details.css">
+    </head>
+<%- include('includes/navigation') %>
+    <h1><%= game.title %></h1>
+    <p><strong>Desarrollador:</strong> <%= game.developer %></p>
+    <p><strong>Género:</strong> <%= game.genre %></p>
+    <p><strong>Año de Lanzamiento:</strong> <%= game.release_year %></p>
+    <p><strong>Descripción:</strong> <%= game.description %></p>
+    <img src="<%= game.image %>" alt="<%= game.title %>" style="max-width: 400px;">
+    <br><br>
+    <a href="/">Volver a la lista de juegos</a>
+</body>
+</html>
