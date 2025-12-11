@@ -1,1 +1,27 @@
-"id, precio, cantidad"
+[
+    {
+        "id" : 1,
+        "precio" : 20,
+        "cantidad" : 0
+    },
+    {
+        "id" : 2,
+        "precio" : 25,
+        "cantidad" : 0
+    },
+    {
+        "id" : 3,
+        "precio" : 15,
+        "cantidad" : 0
+    },
+    {
+        "id" : 4,
+        "precio" : 18,
+        "cantidad" : 0
+    },
+    {
+        "id" : 5,
+        "precio" : 23,
+        "cantidad" : 0
+    }
+]
