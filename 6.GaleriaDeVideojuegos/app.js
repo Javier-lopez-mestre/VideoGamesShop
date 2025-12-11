@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 const gamesRoute = require("./routes/games");
+const cartsRoute = require("./routes/carts");
 
 app.set("view engine", "ejs");
 app.set("views", "views");
@@ -17,6 +18,11 @@ app.use(gamesRoute);
 app.use((req, res, next) => {
     res.status(404).send("<h1>404 - Page Not Found</h1>");
 });
+
+app.use(cartsRoute);
+app.use((req, res, next) => {
+    res.status(404).send("<h1>404 - Page Not Found</h1>");
+})
 
 
 
